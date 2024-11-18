@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #232436;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-link {
+  color: #ffffff;
+}
+
+.menu-link.active {
+  color: #479ff1;
+  text-decoration: underline;
+}
+
+.errorBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.errorBox > h2 {
+  font-size: 60px;
+}
+
+
+.errorBox > h3 {
+  font-size: 40px;
+}
+
+.blog-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+}
+
+.blog-box > h3 {
+  font-size: 50px;
+}
+
+.blog-links-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.postLink {
+  color: #000;
+}
+
+.notFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFound > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 40px;
+}
+
+.go-home {
+  color: #479ff1;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.home > h3 {
+  font-size: 50px;
+}
+
+.about > h3 {
+  font-size: 50px;
+}
+
+.post-box {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.comments-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;  
+}
+
+.comment-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn-box {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.go-back-btn {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(211, 214, 0);
+  color: #fff;
+  border: none;
+}
+
+.go-home-btn {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(46, 209, 14);
+  color: #fff;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #232436;
+  color: #fff;
+}
+
+.edit-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-box > h3 {
+  font-size: 50px;
+}
+
+.loginPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.loginPage > h2 {
+  font-size: 50px;
+}
+
+.createPost {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 235px;
+}
+
+.createPost > h2 {
+  font-size: 50px;
+}
+
+#createPostForm {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#createPostForm > label > input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+}
+
+.submit {
+  width: 50%;
+  height: 40px;
+  background-color: rgb(86, 163, 35);
+  color: #fff;
+  border: none;
+}
+
+#editForm {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#editForm > label > input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+}
